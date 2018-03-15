@@ -12,6 +12,8 @@
 		C98E70EF205AC6D700D457E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98E70ED205AC6D700D457E9 /* Main.storyboard */; };
 		C98E70F1205AC6D700D457E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98E70F0205AC6D700D457E9 /* Assets.xcassets */; };
 		C98E70F4205AC6D700D457E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98E70F2205AC6D700D457E9 /* LaunchScreen.storyboard */; };
+		C98E7101205ACBE400D457E9 /* OperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E70FF205ACBE400D457E9 /* OperationCell.swift */; };
+		C98E7102205ACBE400D457E9 /* OperationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C98E7100205ACBE400D457E9 /* OperationCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C98E70F0205AC6D700D457E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98E70F3205AC6D700D457E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C98E70F5205AC6D700D457E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98E70FF205ACBE400D457E9 /* OperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCell.swift; sourceTree = "<group>"; };
+		C98E7100205ACBE400D457E9 /* OperationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperationCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,9 @@
 		C98E70E8205AC6D700D457E9 /* Bog Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				C98E70FD205AC8F500D457E9 /* Core */,
+				C98E70FC205AC8E400D457E9 /* Views */,
+				C98E70FB205AC8DE00D457E9 /* Scenes */,
 				C98E70E9205AC6D700D457E9 /* AppDelegate.swift */,
 				C98E70EB205AC6D700D457E9 /* ViewController.swift */,
 				C98E70ED205AC6D700D457E9 /* Main.storyboard */,
@@ -62,6 +69,37 @@
 				C98E70F5205AC6D700D457E9 /* Info.plist */,
 			);
 			path = "Bog Assignment";
+			sourceTree = "<group>";
+		};
+		C98E70FB205AC8DE00D457E9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C98E70FC205AC8E400D457E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C98E70FE205ACBA600D457E9 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C98E70FD205AC8F500D457E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C98E70FE205ACBA600D457E9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C98E70FF205ACBE400D457E9 /* OperationCell.swift */,
+				C98E7100205ACBE400D457E9 /* OperationCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +163,7 @@
 			files = (
 				C98E70F4205AC6D700D457E9 /* LaunchScreen.storyboard in Resources */,
 				C98E70F1205AC6D700D457E9 /* Assets.xcassets in Resources */,
+				C98E7102205ACBE400D457E9 /* OperationCell.xib in Resources */,
 				C98E70EF205AC6D700D457E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +177,7 @@
 			files = (
 				C98E70EC205AC6D700D457E9 /* ViewController.swift in Sources */,
 				C98E70EA205AC6D700D457E9 /* AppDelegate.swift in Sources */,
+				C98E7101205ACBE400D457E9 /* OperationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TJ99YUB869;
 				INFOPLIST_FILE = "Bog Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ge.mobility.Bog-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TJ99YUB869;
 				INFOPLIST_FILE = "Bog Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ge.mobility.Bog-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
