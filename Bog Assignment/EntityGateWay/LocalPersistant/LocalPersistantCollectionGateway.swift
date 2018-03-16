@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+protocol LocalPersistantCollectionItemsGateWay: CollectionGateWay{
+    
+}
+
+class PlistCollectionItemsGateWay: LocalPersistantCollectionItemsGateWay {
+    
+    func fetchCollectionData(completionHandler: @escaping FetchCollectionDataGatewayCompletionHandler) {
+        
+    }
+}
