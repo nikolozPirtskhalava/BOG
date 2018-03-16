@@ -21,7 +21,7 @@ struct SectionListViewModel: CollectionModelItem {
         return 60
     }
     var rowCount: Int {
-        return 10
+        return items.count
     }
     
     init(items: [Operation]) {

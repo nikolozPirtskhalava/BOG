@@ -24,7 +24,7 @@ extension FormViewController: UITableViewDelegate, UITableViewDataSource {
             self.presenter?.configure(cell: collectionViewcell, forRow: indexPath.row)
             return collectionViewcell
         default:
-            self.presenter?.configure(cell: operationCell, forRow: indexPath.row)
+            self.presenter?.configure(cell: operationCell, for: indexPath)
             return operationCell
         }
     }

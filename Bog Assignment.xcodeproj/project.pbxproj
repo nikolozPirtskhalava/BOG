@@ -23,6 +23,7 @@
 		C90E2281205C05B700FE13A8 /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E2280205C05B700FE13A8 /* CollectionViewModel.swift */; };
 		C90E2283205C087D00FE13A8 /* FormConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E2282205C087D00FE13A8 /* FormConfigurator.swift */; };
 		C90E2286205C214C00FE13A8 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = C90E2285205C214C00FE13A8 /* Data.plist */; };
+		C90E228A205C5FD900FE13A8 /* bpg_banner_caps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C90E2289205C5FCC00FE13A8 /* bpg_banner_caps.ttf */; };
 		C98E70EA205AC6D700D457E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E70E9205AC6D700D457E9 /* AppDelegate.swift */; };
 		C98E70EC205AC6D700D457E9 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E70EB205AC6D700D457E9 /* FormViewController.swift */; };
 		C98E70EF205AC6D700D457E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98E70ED205AC6D700D457E9 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		C90E2280205C05B700FE13A8 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
 		C90E2282205C087D00FE13A8 /* FormConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormConfigurator.swift; sourceTree = "<group>"; };
 		C90E2285205C214C00FE13A8 /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		C90E2289205C5FCC00FE13A8 /* bpg_banner_caps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bpg_banner_caps.ttf; sourceTree = "<group>"; };
 		C98E70E6205AC6D700D457E9 /* Bog Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bog Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98E70E9205AC6D700D457E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C98E70EB205AC6D700D457E9 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		C90E2284205C212300FE13A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C90E2289205C5FCC00FE13A8 /* bpg_banner_caps.ttf */,
 				C90E2285205C214C00FE13A8 /* Data.plist */,
 			);
 			path = "Supporting Files";
@@ -297,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90E228A205C5FD900FE13A8 /* bpg_banner_caps.ttf in Resources */,
 				C90E2286205C214C00FE13A8 /* Data.plist in Resources */,
 				C98E70F4205AC6D700D457E9 /* LaunchScreen.storyboard in Resources */,
 				C98E70F1205AC6D700D457E9 /* Assets.xcassets in Resources */,

@@ -12,7 +12,7 @@ protocol InitializableWithData {
     init(data: [String: Any]) throws
 }
 
-struct Operation: InitializableWithJson {
+struct Operation: InitializableWithData {
     var icon: String
     var amount: String
     var title: String

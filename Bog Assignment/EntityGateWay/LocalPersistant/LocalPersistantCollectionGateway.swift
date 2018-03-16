@@ -13,7 +13,6 @@ protocol LocalPersistantCollectionItemsGateWay: CollectionGateWay{
 }
 
 class PlistCollectionItemsGateWay: LocalPersistantCollectionItemsGateWay {
-    
     func fetchCollectionData(completionHandler: @escaping (Result<[CollectionModelItem]>) -> Void) {
         var arrayToSend = [CollectionModelItem]()
         
@@ -22,21 +21,18 @@ class PlistCollectionItemsGateWay: LocalPersistantCollectionItemsGateWay {
             dictRoot = NSDictionary(contentsOfFile: path)
         }
         
-        if let dict = dictRoot {
-            var arrayList:[NSDictionary] = dictRoot?["Operations"] as! Array
-            // Now a loop through Array to fetch single Item from catList which is Dictionary
-            arrayList.forEach({ (dict) in
-                do {
-                    try Operation.init(json: dict as! [String: Any])
-                } catch {
-                    
-                }
-                print(dict)
-            })
+        var operationsArray:[Operation]?
+        if let _ = dictRoot as? [String: Any] {
+            let arrayList:[NSDictionary] = dictRoot?["Operations"] as! Array
+            do {
+                operationsArray = try arrayList.map { try Operation.init(data: $0 as! [String : Any]) }
+            } catch {
+                
+            }
         }
 
         let sectionCollectionViewModel = SectionCollectionViewModel.init(items: [])
-        let sectionListViewModel = SectionListViewModel.init(items: [])
+        let sectionListViewModel = SectionListViewModel.init(items: operationsArray!)
         arrayToSend.append(sectionCollectionViewModel)
         arrayToSend.append(sectionListViewModel)
         

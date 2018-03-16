@@ -8,6 +8,14 @@
 
 import Foundation
 
+protocol OperationCellView {
+    func display(icon: String)
+    func display(title: String)
+    func display(time: String)
+    func display(id: String)
+    func display(amount: String)
+}
+
 protocol FormView: class {
     func resfreshTableView()
     func displayDataFetchError(_ error: Error)
@@ -15,7 +23,7 @@ protocol FormView: class {
 
 protocol FormPresenter {
     var  numberOfSections:Int { get }
-    func configure(cell: OperationCell, forRow row: Int)
+    func configure(cell: OperationCell, for indexpath: IndexPath)
     func configure(cell: CollectionViewCell, forRow row: Int)
     func numberOfRows(in section: Int) -> Int
     func rowHeight(for section: Int) -> Float
@@ -54,8 +62,15 @@ class FormPresenterImplementation: FormPresenter {
         self.view?.resfreshTableView()
     }
     
-    func configure(cell: OperationCell, forRow row: Int) {
+    func configure(cell: OperationCell, for indexpath: IndexPath) {
+        let sectionListModelItem = self.items[indexpath.section] as! SectionListViewModel
+        let operation = sectionListModelItem.items[indexpath.row]
         
+        cell.display(id: operation.id)
+        cell.display(icon: operation.icon)
+        cell.display(time: operation.time)
+        cell.display(title: operation.title)
+        cell.display(amount: operation.amount)
     }
     
     func configure(cell: CollectionViewCell, forRow row: Int) {
