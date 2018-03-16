@@ -11,7 +11,10 @@ import Foundation
 struct CollectionViewModelItem: CollectionModelItem {
     var type: CollectionType
     var sectionTitle: String
-    var rowCount: Int {
-        return 3
+    var rowCount: Int { return 3 }
+    var items: [[CollectionItem]]
+    
+    init(items: [[CollectionItem]]) {
+        self.items = items
     }
 }
