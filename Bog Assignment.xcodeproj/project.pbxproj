@@ -27,6 +27,7 @@
 		C90E228D205C652A00FE13A8 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E228B205C652A00FE13A8 /* CollectionCell.swift */; };
 		C90E228E205C652A00FE13A8 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90E228C205C652A00FE13A8 /* CollectionCell.xib */; };
 		C90E2291205C66F800FE13A8 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E2290205C66F800FE13A8 /* Helpers.swift */; };
+		C90E2293205C6AB400FE13A8 /* Form+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E2292205C6AB400FE13A8 /* Form+Collection.swift */; };
 		C98E70EA205AC6D700D457E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E70E9205AC6D700D457E9 /* AppDelegate.swift */; };
 		C98E70EC205AC6D700D457E9 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E70EB205AC6D700D457E9 /* FormViewController.swift */; };
 		C98E70EF205AC6D700D457E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98E70ED205AC6D700D457E9 /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		C90E228B205C652A00FE13A8 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		C90E228C205C652A00FE13A8 /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
 		C90E2290205C66F800FE13A8 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		C90E2292205C6AB400FE13A8 /* Form+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Form+Collection.swift"; sourceTree = "<group>"; };
 		C98E70E6205AC6D700D457E9 /* Bog Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bog Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98E70E9205AC6D700D457E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C98E70EB205AC6D700D457E9 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
@@ -225,8 +227,9 @@
 			children = (
 				C98E70EB205AC6D700D457E9 /* FormViewController.swift */,
 				C90E226A205BE9B000FE13A8 /* FormPresenter.swift */,
-				C90E2268205BE80E00FE13A8 /* Form+List.swift */,
 				C90E2282205C087D00FE13A8 /* FormConfigurator.swift */,
+				C90E2268205BE80E00FE13A8 /* Form+List.swift */,
+				C90E2292205C6AB400FE13A8 /* Form+Collection.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				C90E2265205BE2A400FE13A8 /* Collectiontem.swift in Sources */,
 				C90E2260205BDC5B00FE13A8 /* SectionCollectionViewModel.swift in Sources */,
 				C90E227C205BFEDB00FE13A8 /* Result.swift in Sources */,
+				C90E2293205C6AB400FE13A8 /* Form+Collection.swift in Sources */,
 				C90E2267205BE3AC00FE13A8 /* Operation.swift in Sources */,
 				C90E225C205BD2A600FE13A8 /* ViewModelType.swift in Sources */,
 				C98E70EC205AC6D700D457E9 /* FormViewController.swift in Sources */,

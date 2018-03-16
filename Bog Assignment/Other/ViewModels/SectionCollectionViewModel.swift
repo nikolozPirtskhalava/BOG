@@ -15,7 +15,7 @@ struct SectionCollectionViewModel: CollectionModelItem {
     }
     var items: [CollectionViewModel]
     var rowHeight: Float {
-        return 100
+        return 150
     }
     var rowCount: Int {
         return 3

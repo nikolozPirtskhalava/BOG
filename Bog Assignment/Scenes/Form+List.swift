@@ -22,6 +22,7 @@ extension FormViewController: UITableViewDelegate, UITableViewDataSource {
         switch self.presenter?.typeFor(section: indexPath.section) {
         case .CollectionVIew?:
             self.presenter?.configure(cell: collectionViewcell, forRow: indexPath.row)
+            collectionViewcell.setCollectionViewDataSourceDelegate(self, forRow: indexPath.row)
             return collectionViewcell
         default:
             self.presenter?.configure(cell: operationCell, for: indexPath)
