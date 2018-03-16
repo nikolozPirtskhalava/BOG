@@ -9,12 +9,17 @@
 import Foundation
 
 struct CollectionViewModelItem: CollectionModelItem {
-    var type: CollectionType
+    var type: CollectionType {
+        return .CollectionVIew
+    }
     var sectionTitle: String
-    var rowCount: Int { return 3 }
     var items: [[CollectionItem]]
+    var rowCount: Int {
+        return items.count
+    }
     
-    init(items: [[CollectionItem]]) {
+    init(items: [[CollectionItem]], sectionTitle: String) {
         self.items = items
+        self.sectionTitle = sectionTitle
     }
 }
