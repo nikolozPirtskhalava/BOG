@@ -11,13 +11,13 @@ import UIKit
 extension FormViewController: UITableViewDelegate, UITableViewDataSource {
     
     func configureTableOnLoad() {
-        self.tableView.register(UINib.init(nibName: "CollectionViewCell", bundle: nil), forCellReuseIdentifier: "CollectionViewCell")
-        self.tableView.register(UINib.init(nibName: "OperationCell", bundle: nil), forCellReuseIdentifier: "OperationCell")
+        self.tableView.register(UINib.init(nibName: Helpers.typeName(for: CollectionViewCell.self), bundle: nil), forCellReuseIdentifier: Helpers.typeName(for: CollectionViewCell.self))
+        self.tableView.register(UINib.init(nibName: Helpers.typeName(for: OperationCell.self), bundle: nil), forCellReuseIdentifier: Helpers.typeName(for: OperationCell.self))
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let collectionViewcell = tableView.dequeueReusableCell(withIdentifier: "CollectionViewCell") as! CollectionViewCell
-        let operationCell = tableView.dequeueReusableCell(withIdentifier: "OperationCell") as! OperationCell
+        let collectionViewcell = tableView.dequeueReusableCell(withIdentifier: Helpers.typeName(for: CollectionViewCell.self)) as! CollectionViewCell
+        let operationCell = tableView.dequeueReusableCell(withIdentifier: Helpers.typeName(for: OperationCell.self)) as! OperationCell
         
         switch self.presenter?.typeFor(section: indexPath.section) {
         case .CollectionVIew?:

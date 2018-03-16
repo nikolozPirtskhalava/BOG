@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="bpg_banner_caps.ttf">
+            <string>BPGBannerCaps</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -50,7 +55,7 @@
                         <constraints>
                             <constraint firstAttribute="width" constant="50" id="eOg-bC-jZB"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <fontDescription key="fontDescription" name="BPGBannerCaps" family="BPG Banner Caps" pointSize="10"/>
                         <color key="textColor" red="0.66268569231033325" green="0.66278308629989624" blue="0.66266441345214844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -72,6 +77,9 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="1Em-0C-Uvn" id="8cl-7L-5NF"/>
+            </connections>
             <point key="canvasLocation" x="168.5" y="121.5"/>
         </tableViewCell>
     </objects>
