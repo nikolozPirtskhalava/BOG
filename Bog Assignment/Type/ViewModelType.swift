@@ -17,6 +17,7 @@ protocol CollectionModelItem {
     var type: CollectionType { get }
     var rowCount: Int { get }
     var sectionTitle: String { get }
+    var rowHeight: Float { get }
 }
 
 extension CollectionModelItem {

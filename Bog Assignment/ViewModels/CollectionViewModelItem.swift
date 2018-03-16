@@ -14,6 +14,9 @@ struct CollectionViewModelItem: CollectionModelItem {
     }
     var sectionTitle: String
     var items: [[CollectionItem]]
+    var rowHeight: Float {
+        return 100
+    }
     var rowCount: Int {
         return items.count
     }

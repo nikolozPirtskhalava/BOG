@@ -17,6 +17,9 @@ struct ListViewModelItem: CollectionModelItem {
         return "ბოლო ოპერაციები"
     }
     var items: [Operation]
+    var rowHeight: Float {
+        return 50
+    }
     var rowCount: Int {
         return items.count
     }
