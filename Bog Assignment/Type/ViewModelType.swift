@@ -14,7 +14,7 @@ enum CollectionType {
 }
 
 protocol CollectionModelItem {
-    var type: CellType { get }
+    var type: CollectionType { get }
     var rowCount: Int { get }
     var sectionTitle: String { get }
 }
