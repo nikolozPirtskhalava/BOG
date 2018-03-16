@@ -8,21 +8,20 @@
 
 import Foundation
 
-struct CollectionViewModelItem: CollectionModelItem {
+struct SectionCollectionViewModel: CollectionModelItem {
+    
     var type: CollectionType {
         return .CollectionVIew
     }
-    var sectionTitle: String
-    var items: [[CollectionItem]]
+    var items: [CollectionViewModel]
     var rowHeight: Float {
         return 100
     }
     var rowCount: Int {
-        return items.count
+        return 3
     }
     
-    init(items: [[CollectionItem]], sectionTitle: String) {
+    init(items: [CollectionViewModel]) {
         self.items = items
-        self.sectionTitle = sectionTitle
     }
 }

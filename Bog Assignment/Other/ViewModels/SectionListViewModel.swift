@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct ListViewModelItem: CollectionModelItem {
+struct SectionListViewModel: CollectionModelItem {
     var type: CollectionType {
         return .List
     }
@@ -18,10 +18,10 @@ struct ListViewModelItem: CollectionModelItem {
     }
     var items: [Operation]
     var rowHeight: Float {
-        return 50
+        return 60
     }
     var rowCount: Int {
-        return items.count
+        return 10
     }
     
     init(items: [Operation]) {

@@ -26,10 +26,12 @@ protocol FormPresenter {
 class FormPresenterImplementation: FormPresenter {
     
     fileprivate weak var view: FormView?
+    fileprivate let displaySectionsUseCase: DisplaySectionsUseCase?
     var items = [CollectionModelItem]()
     
-    init(view: FormView?) {
+    init(view: FormView?, displaySectionsUseCase: DisplaySectionsUseCase?) {
         self.view = view
+        self.displaySectionsUseCase = displaySectionsUseCase
     }
     
     var numberOfSections: Int {
@@ -37,7 +39,19 @@ class FormPresenterImplementation: FormPresenter {
     }
     
     func viewDidLoad() {
-        
+        self.displaySectionsUseCase?.displaySections(completionHandler: { (result) in
+            switch result {
+            case let .success(items):
+                self.handleFetchedItems(items)
+            case let .failure(_):
+                break
+            }
+        })
+    }
+    
+    func handleFetchedItems(_ items: [CollectionModelItem]) {
+        self.items = items
+        self.view?.resfreshTableView()
     }
     
     func configure(cell: OperationCell, forRow row: Int) {

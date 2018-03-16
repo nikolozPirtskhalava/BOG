@@ -8,23 +8,25 @@
 
 import UIKit
 
-class FormViewController: UIViewController {
-    
+class FormViewController: UIViewController, FormView {
     @IBOutlet weak var tableView: UITableView!
     
     var presenter: FormPresenter?
+    let configurator = FormConfiguratorImplementation()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureTableOnLoad()
+        self.configurator.configure(for: self)
+        self.presenter?.viewDidLoad()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func resfreshTableView() {
+        self.tableView.reloadData()
     }
-
-
+    
+    func displayDataFetchError(_ error: Error) {
+    }
 }
 
