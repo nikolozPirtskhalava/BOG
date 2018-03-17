@@ -8,6 +8,10 @@
 
 import Foundation
 
+protocol SectionCollectionTableCellView {
+    func display(title:String)
+}
+
 protocol OperationCellView {
     func display(icon: String)
     func display(title: String)
@@ -23,8 +27,8 @@ protocol FormView: class {
 
 protocol FormPresenter {
     var  numberOfSections:Int { get }
-    func configure(cell: OperationCell, for indexpath: IndexPath)
-    func configure(cell: CollectionViewCell, forRow row: Int)
+    func configure(cell: OperationCell, for indexPath: IndexPath)
+    func configure(cell: SectionCollectionTableCell, for indexPath: IndexPath)
     func numberOfRows(in section: Int) -> Int
     func rowHeight(for section: Int) -> Float
     func typeFor(section: Int) -> CollectionType
@@ -62,9 +66,9 @@ class FormPresenterImplementation: FormPresenter {
         self.view?.resfreshTableView()
     }
     
-    func configure(cell: OperationCell, for indexpath: IndexPath) {
-        let sectionListModelItem = self.items[indexpath.section] as! SectionListViewModel
-        let operation = sectionListModelItem.items[indexpath.row]
+    func configure(cell: OperationCell, for indexPath: IndexPath) {
+        let sectionListModelItem = self.items[indexPath.section] as! SectionListViewModel
+        let operation = sectionListModelItem.items[indexPath.row]
         
         cell.display(id: operation.id)
         cell.display(icon: operation.icon)
@@ -73,8 +77,13 @@ class FormPresenterImplementation: FormPresenter {
         cell.display(amount: operation.amount)
     }
     
-    func configure(cell: CollectionViewCell, forRow row: Int) {
+    func configure(cell: SectionCollectionTableCell, for indexPath: IndexPath) {
+        guard let collectionViewModel = self.items.item(at: indexPath.section) as? SectionCollectionViewModel,
+              let model = collectionViewModel.items.item(at: indexPath.row) else {
+            return
+        }
         
+        cell.display(title: model.sectionTitle)
     }
     
     func typeFor(section: Int) -> CollectionType {
