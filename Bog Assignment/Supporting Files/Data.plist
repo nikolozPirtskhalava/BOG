@@ -137,5 +137,206 @@
 			<string>geocell</string>
 		</dict>
 	</array>
+	<key>Categories</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+	</array>
+	<key>Favorites</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+	</array>
+	<key>Templates</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+	</array>
 </dict>
 </plist>
