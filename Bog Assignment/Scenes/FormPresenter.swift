@@ -8,6 +8,11 @@
 
 import Foundation
 
+protocol CollectionItemView {
+    func display(icon: String)
+    func display(title: String)
+}
+
 protocol SectionCollectionTableCellView {
     func display(title:String)
 }

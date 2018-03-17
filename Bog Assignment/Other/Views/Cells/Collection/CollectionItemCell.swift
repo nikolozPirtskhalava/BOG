@@ -8,11 +8,17 @@
 
 import UIKit
 
-class CollectionCell: UICollectionViewCell {
+class CollectionItemCell: UICollectionViewCell, CollectionItemView {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var labelTitle: UILabel!
+    
+    func display(title: String) {
+        self.labelTitle.text = title
+    }
+    
+    func display(icon: String) {
+        self.iconImageView.image = UIImage(named: icon)
     }
 
 }
