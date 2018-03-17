@@ -11,5 +11,5 @@ import Foundation
 typealias FetchCollectionDataGatewayCompletionHandler = (_ items: Result<[CollectionModelItem]>) -> Void
 
 protocol CollectionGateWay {
-    func fetchCollectionData(completionHandler: @escaping FetchCollectionDataGatewayCompletionHandler)
+    func fetchCollectionData(completionHandler: FetchCollectionDataGatewayCompletionHandler)
 }
