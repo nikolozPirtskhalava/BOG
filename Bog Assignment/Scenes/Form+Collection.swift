@@ -12,12 +12,12 @@ import UIKit
 extension FormViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return (self.presenter?.numnberOfcollectionItems(in: section, forRow: collectionView.tag))!
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let collectionItemCell = collectionView.dequeueReusableCell(withReuseIdentifier: Helpers.typeName(for: CollectionItemCell.self), for: indexPath) as! CollectionItemCell
-            
+            self.presenter?.configure(cell: collectionItemCell, with: collectionView.tag, for: indexPath)
         return collectionItemCell
     }
     
