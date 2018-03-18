@@ -15,10 +15,10 @@ struct SectionCollectionViewModel: CollectionModelItem {
     }
     var items: [CollectionViewModel]
     var rowHeight: Float {
-        return 150
+        return Constants.kSectionCollectionCellHeight
     }
     var rowCount: Int {
-        return 3
+        return items.count
     }
     
     init(items: [CollectionViewModel]) {

@@ -14,11 +14,11 @@ struct SectionListViewModel: CollectionModelItem {
         return .List
     }
     var sectionTitle: String {
-        return "ბოლო ოპერაციები"
+        return Constants.kLastOperations
     }
     var items: [Operation]
     var rowHeight: Float {
-        return 60
+        return Constants.kSectionListCellHeight
     }
     var rowCount: Int {
         return items.count
