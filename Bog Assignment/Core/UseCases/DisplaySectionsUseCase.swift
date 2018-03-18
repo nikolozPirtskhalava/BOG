@@ -11,17 +11,17 @@ import Foundation
 typealias DisplaySectionsUseCaseCompletionHandler = (_ items: Result<[CollectionModelItem]>) -> Void
 
 protocol DisplaySectionsUseCase {
-    func displaySections(completionHandler: @escaping DisplaySectionsUseCaseCompletionHandler)
+    func displaySections(completionHandler: DisplaySectionsUseCaseCompletionHandler)
 }
 
 class DisplaySectionsUseCaseImplementation: DisplaySectionsUseCase {
-    let collectionGateWay: CollectionGateWay
+    let collectionGateWay: DataGateWay
     
-    init(collectionGateWay: CollectionGateWay) {
+    init(collectionGateWay: DataGateWay) {
         self.collectionGateWay = collectionGateWay
     }
     
-    func displaySections(completionHandler: @escaping (Result<[CollectionModelItem]>) -> Void) {
+    func displaySections(completionHandler: (Result<[CollectionModelItem]>) -> Void) {
         self.collectionGateWay.fetchCollectionData { (result) in
             completionHandler(result)
         }

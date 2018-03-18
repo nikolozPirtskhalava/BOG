@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol LocalPersistantCollectionItemsGateWay: CollectionGateWay{
+protocol LocalPersistantDataGateway: DataGateWay {
     
 }
 
-class PlistCollectionItemsGateWay: LocalPersistantCollectionItemsGateWay {
+class PlistCollectionItemsGateWay: LocalPersistantDataGateway {
     func fetchCollectionData(completionHandler: (Result<[CollectionModelItem]>) -> Void) {
         var collectionModelItems = [CollectionModelItem]()
         
