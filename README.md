@@ -7,7 +7,7 @@ Used extra layer ViewModel between model and the view, as considering that this 
 App Builds On Xcode 9.2
 
 ```
-Requires XCode 9.2+ / Swift 4
+Requires XCode 9.2 / Swift 4
 ```
 
 ```
