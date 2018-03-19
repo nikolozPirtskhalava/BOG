@@ -8,18 +8,18 @@
 
 import Foundation
 
-enum CollectionType {
-    case CollectionVIew
+enum SectionType {
+    case CollectionView
     case List
 }
 
-protocol CollectionModelItem {
-    var type: CollectionType { get }
+protocol SectionViewModel{
+    var type: SectionType { get }
     var rowCount: Int { get }
     var rowHeight: Float { get }
 }
 
-extension CollectionModelItem {
+extension SectionViewModel {
     var rowCount: Int {
         return 1
     }

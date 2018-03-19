@@ -9,8 +9,8 @@
 import Foundation
 
 
-struct SectionListViewModel: CollectionModelItem {
-    var type: CollectionType {
+struct SectionListViewModel: SectionViewModel {
+    var type: SectionType {
         return .List
     }
     var sectionTitle: String {

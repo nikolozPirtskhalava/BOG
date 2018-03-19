@@ -97,17 +97,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C90E225A205BD27B00FE13A8 /* Type */ = {
-			isa = PBXGroup;
-			children = (
-				C90E225B205BD2A600FE13A8 /* ViewModelType.swift */,
-			);
-			path = Type;
-			sourceTree = "<group>";
-		};
 		C90E225E205BDC1600FE13A8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C90E225B205BD2A600FE13A8 /* ViewModelType.swift */,
 				C90E225F205BDC5B00FE13A8 /* SectionCollectionViewModel.swift */,
 				C90E2261205BDF3800FE13A8 /* SectionListViewModel.swift */,
 				C90E2280205C05B700FE13A8 /* CollectionViewModel.swift */,
@@ -176,7 +169,6 @@
 				C90E228F205C669A00FE13A8 /* Helpers */,
 				C98E70FC205AC8E400D457E9 /* Views */,
 				C90E225E205BDC1600FE13A8 /* ViewModels */,
-				C90E225A205BD27B00FE13A8 /* Type */,
 			);
 			path = Other;
 			sourceTree = "<group>";

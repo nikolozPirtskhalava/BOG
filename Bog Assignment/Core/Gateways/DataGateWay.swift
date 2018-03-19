@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias FetchDataGatewayCompletionHandler = (_ items: Result<[CollectionModelItem]>) -> Void
+typealias FetchDataGatewayCompletionHandler = (_ items: Result<[SectionViewModel]>) -> Void
 
 protocol DataGateWay {
     func fetchCollectionData(completionHandler: FetchDataGatewayCompletionHandler)

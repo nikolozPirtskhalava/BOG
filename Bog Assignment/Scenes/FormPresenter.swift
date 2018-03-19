@@ -38,7 +38,7 @@ protocol FormPresenter {
     func numberOfRows(in section: Int) -> Int
     func numnberOfcollectionItems(in section: Int, forRow row: Int) -> Int
     func rowHeight(for section: Int) -> Float
-    func typeFor(section: Int) -> CollectionType
+    func typeFor(section: Int) -> SectionType
     func viewDidLoad()
 }
 
@@ -46,7 +46,7 @@ class FormPresenterImplementation: FormPresenter {
     
     fileprivate weak var view: FormView?
     fileprivate let displaySectionsUseCase: DisplaySectionsUseCase?
-    var items = [CollectionModelItem]()
+    var items = [SectionViewModel]()
     
     init(view: FormView?, displaySectionsUseCase: DisplaySectionsUseCase?) {
         self.view = view
@@ -68,7 +68,7 @@ class FormPresenterImplementation: FormPresenter {
         })
     }
     
-    func handleFetchedItems(_ items: [CollectionModelItem]) {
+    func handleFetchedItems(_ items: [SectionViewModel]) {
         self.items = items
         self.view?.resfreshTableView()
     }
@@ -121,7 +121,7 @@ class FormPresenterImplementation: FormPresenter {
         return self.items[section].rowCount
     }
     
-    func typeFor(section: Int) -> CollectionType {
+    func typeFor(section: Int) -> SectionType {
         return self.items[section].type
     }
     

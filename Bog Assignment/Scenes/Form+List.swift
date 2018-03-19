@@ -17,7 +17,7 @@ extension FormViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch self.presenter!.typeFor(section: indexPath.section) {
-        case .CollectionVIew:
+        case .CollectionView:
             let collectionViewcell = tableView.dequeueReusableCell(withIdentifier: Constants.kSectionCollectionCellIdentifier) as! SectionCollectionTableCell
             collectionViewcell.setCollectionViewDataSourceDelegate(self, forPath: indexPath)
             self.presenter?.configure(cell: collectionViewcell, for: indexPath)
@@ -45,14 +45,9 @@ extension FormViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        
-        let deleteAction = UITableViewRowAction.init(style: .default, title: "delete") { (action, indexPath) in
-        }
-        let moreAction = UITableViewRowAction.init(style: .default, title: "More") { (action, indexPath) in
-        }
-        let hideAction = UITableViewRowAction.init(style: .default, title: "Hide") { (action, indexPath) in
-        }
-        
+        let deleteAction = UITableViewRowAction.init(style: .default, title: "delete") { (action, indexPath) in }
+        let moreAction = UITableViewRowAction.init(style: .default, title: "More") { (action, indexPath) in }
+        let hideAction = UITableViewRowAction.init(style: .default, title: "Hide") { (action, indexPath) in }
         return [hideAction,moreAction,deleteAction]
     }
     

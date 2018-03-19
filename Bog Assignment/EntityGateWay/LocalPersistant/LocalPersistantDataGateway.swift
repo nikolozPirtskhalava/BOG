@@ -13,8 +13,8 @@ protocol LocalPersistantDataGateway: DataGateWay {
 }
 
 class PlistCollectionItemsGateWay: LocalPersistantDataGateway {
-    func fetchCollectionData(completionHandler: (Result<[CollectionModelItem]>) -> Void) {
-        var collectionModelItems = [CollectionModelItem]()
+    func fetchCollectionData(completionHandler: (Result<[SectionViewModel]>) -> Void) {
+        var collectionModelItems = [SectionViewModel]()
         
         var operationsArray = [Operation]()
         var categoriesArray = [CollectionItem]()

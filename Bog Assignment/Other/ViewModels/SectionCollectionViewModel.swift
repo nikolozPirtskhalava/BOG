@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct SectionCollectionViewModel: CollectionModelItem {
+struct SectionCollectionViewModel: SectionViewModel {
     
-    var type: CollectionType {
-        return .CollectionVIew
+    var type: SectionType {
+        return .CollectionView
     }
     var items: [CollectionViewModel]
     var rowHeight: Float {

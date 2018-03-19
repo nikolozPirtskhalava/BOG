@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias DisplaySectionsUseCaseCompletionHandler = (_ items: Result<[CollectionModelItem]>) -> Void
+typealias DisplaySectionsUseCaseCompletionHandler = (_ items: Result<[SectionViewModel]>) -> Void
 
 protocol DisplaySectionsUseCase {
     func displaySections(completionHandler: DisplaySectionsUseCaseCompletionHandler)
@@ -21,7 +21,7 @@ class DisplaySectionsUseCaseImplementation: DisplaySectionsUseCase {
         self.collectionGateWay = collectionGateWay
     }
     
-    func displaySections(completionHandler: (Result<[CollectionModelItem]>) -> Void) {
+    func displaySections(completionHandler: (Result<[SectionViewModel]>) -> Void) {
         self.collectionGateWay.fetchCollectionData { (result) in
             completionHandler(result)
         }

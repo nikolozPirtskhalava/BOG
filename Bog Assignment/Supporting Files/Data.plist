@@ -2,180 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Operations</key>
-	<array>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>geocell</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>beeline</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>silknet</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>geocell</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>silknet</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>geocell</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>geocell</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>beeline</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>geocell</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>beeline</string>
-		</dict>
-		<dict>
-			<key>time</key>
-			<string>11:00</string>
-			<key>id</key>
-			<string>123</string>
-			<key>title</key>
-			<string>გადარიცხვა</string>
-			<key>amount</key>
-			<string>15</string>
-			<key>icon</key>
-			<string>geocell</string>
-		</dict>
-	</array>
 	<key>Categories</key>
 	<array>
-		<dict>
-			<key>title</key>
-			<string>კომუნალური გადახდები</string>
-			<key>icon</key>
-			<string>bulb</string>
-			<key>type</key>
-			<string>Category</string>
-		</dict>
-		<dict>
-			<key>title</key>
-			<string>გართობა</string>
-			<key>icon</key>
-			<string>entertainment</string>
-			<key>type</key>
-			<string>Category</string>
-		</dict>
-		<dict>
-			<key>title</key>
-			<string>კომუნალური მომსახურება</string>
-			<key>icon</key>
-			<string>globe</string>
-			<key>type</key>
-			<string>Category</string>
-		</dict>
 		<dict>
 			<key>title</key>
 			<string>სპორტი</string>
 			<key>icon</key>
 			<string>sports</string>
-			<key>type</key>
-			<string>Category</string>
-		</dict>
-		<dict>
-			<key>title</key>
-			<string>ბილეთები</string>
-			<key>icon</key>
-			<string>ticket</string>
 			<key>type</key>
 			<string>Category</string>
 		</dict>
@@ -203,17 +36,500 @@
 			<key>type</key>
 			<string>Category</string>
 		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>სპორტი</string>
+			<key>icon</key>
+			<string>sports</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>კომუნალური გადახდები</string>
+			<key>icon</key>
+			<string>bulb</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>გართობა</string>
+			<key>icon</key>
+			<string>entertainment</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>კომუნალური მომსახურება</string>
+			<key>icon</key>
+			<string>globe</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>ბილეთები</string>
+			<key>icon</key>
+			<string>ticket</string>
+			<key>type</key>
+			<string>Category</string>
+		</dict>
+	</array>
+	<key>Operations</key>
+	<array>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>beeline</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>silknet</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>silknet</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>beeline</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>beeline</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>11:00</string>
+			<key>id</key>
+			<string>123</string>
+			<key>title</key>
+			<string>გადარიცხვა</string>
+			<key>amount</key>
+			<string>15</string>
+			<key>icon</key>
+			<string>geocell</string>
+		</dict>
 	</array>
 	<key>Favorites</key>
 	<array>
-		<dict>
-			<key>title</key>
-			<string>მობილური კავშირი</string>
-			<key>icon</key>
-			<string>geocell</string>
-			<key>type</key>
-			<string>Favorite</string>
-		</dict>
 		<dict>
 			<key>title</key>
 			<string>მობილური კავშირი</string>
@@ -244,7 +560,15 @@
 			<key>icon</key>
 			<string>geocell</string>
 			<key>type</key>
-			<string>Category</string>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Favorite</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -259,6 +583,182 @@
 			<string>მობილური კავშირი</string>
 			<key>icon</key>
 			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Favorite</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
 			<key>type</key>
 			<string>Favorite</string>
 		</dict>
@@ -277,17 +777,9 @@
 			<key>title</key>
 			<string>მობილური კავშირი</string>
 			<key>icon</key>
-			<string>geocell</string>
-			<key>type</key>
-			<string>Category</string>
-		</dict>
-		<dict>
-			<key>title</key>
-			<string>მობილური კავშირი</string>
-			<key>icon</key>
 			<string>silknet</string>
 			<key>type</key>
-			<string>Category</string>
+			<string>Template</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -295,7 +787,7 @@
 			<key>icon</key>
 			<string>geocell</string>
 			<key>type</key>
-			<string>Category</string>
+			<string>Template</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -303,7 +795,7 @@
 			<key>icon</key>
 			<string>beeline</string>
 			<key>type</key>
-			<string>Category</string>
+			<string>Template</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -311,7 +803,7 @@
 			<key>icon</key>
 			<string>geocell</string>
 			<key>type</key>
-			<string>Category</string>
+			<string>Template</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -319,7 +811,7 @@
 			<key>icon</key>
 			<string>silknet</string>
 			<key>type</key>
-			<string>Category</string>
+			<string>Template</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -327,7 +819,7 @@
 			<key>icon</key>
 			<string>geocell</string>
 			<key>type</key>
-			<string>Category</string>
+			<string>Template</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -335,7 +827,191 @@
 			<key>icon</key>
 			<string>beeline</string>
 			<key>type</key>
-			<string>Category</string>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>beeline</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>beeline</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>geocell</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>beeline</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>მობილური კავშირი</string>
+			<key>icon</key>
+			<string>silknet</string>
+			<key>type</key>
+			<string>Template</string>
 		</dict>
 	</array>
 </dict>
