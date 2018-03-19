@@ -19,6 +19,10 @@ struct Constants {
     static let kTemplates = "შაბლონები"
     static let kFavorites = "ფავორიტები"
     
+    static let kDeleteTitle = "Delete"
+    static let kHideTitle = "Hide"
+    static let kMoreTitle = "More"
+    
     static let kSectionCollectionCellIdentifier = Helpers.typeName(for: SectionCollectionTableCell.self)
     static let kOperationCellIdentifier = Helpers.typeName(for: OperationCell.self)
 }

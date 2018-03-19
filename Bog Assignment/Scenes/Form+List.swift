@@ -48,9 +48,14 @@ extension FormViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        let deleteAction = UITableViewRowAction.init(style: .default, title: "delete") { (action, indexPath) in }
-        let moreAction = UITableViewRowAction.init(style: .default, title: "More") { (action, indexPath) in }
-        let hideAction = UITableViewRowAction.init(style: .default, title: "Hide") { (action, indexPath) in }
+        let deleteAction = UITableViewRowAction.init(style: .default, title: Constants.kDeleteTitle) { (action, indexPath) in }
+        let moreAction = UITableViewRowAction.init(style: .default, title: Constants.kMoreTitle) { (action, indexPath) in }
+        let hideAction = UITableViewRowAction.init(style: .default, title: Constants.kHideTitle) { (action, indexPath) in }
+
+        deleteAction.backgroundColor = UIColor.red
+        moreAction.backgroundColor = UIColor.gray
+        hideAction.backgroundColor = UIColor.brown
+        
         return [hideAction,moreAction,deleteAction]
     }
     
