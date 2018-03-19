@@ -9,13 +9,12 @@
 import UIKit
 
 class OperationHeader: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    public static func xibInstance() -> OperationHeader? {
+        guard let view = Bundle.main.loadNibNamed(Helpers.typeName(for: OperationHeader.self), owner: self, options: nil)?.first,
+              let header = view as? OperationHeader else {
+            return nil
+        }
+        return header
     }
-    */
-
 }
