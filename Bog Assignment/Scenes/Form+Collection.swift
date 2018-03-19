@@ -17,7 +17,7 @@ extension FormViewController: UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let collectionItemCell = collectionView.dequeueReusableCell(withReuseIdentifier: Helpers.typeName(for: CollectionItemCell.self), for: indexPath) as! CollectionItemCell
-            self.presenter?.configure(cell: collectionItemCell, with: collectionView.tag, for: indexPath)
+        presenter?.configure(cell: collectionItemCell, with: collectionView.tag, for: indexPath)
         return collectionItemCell
     }
     

@@ -11,33 +11,36 @@ import UIKit
 extension FormViewController: UITableViewDataSource {
     
     func configureTableOnLoad() {
-        self.tableView.register(UINib.init(nibName: Helpers.typeName(for: Constants.kSectionCollectionCellIdentifier), bundle: nil), forCellReuseIdentifier: Constants.kSectionCollectionCellIdentifier)
-        self.tableView.register(UINib.init(nibName: Helpers.typeName(for: Constants.kOperationCellIdentifier), bundle: nil), forCellReuseIdentifier: Helpers.typeName(for: Constants.kOperationCellIdentifier))
+        tableView.register(UINib.init(nibName: Helpers.typeName(for: Constants.kSectionCollectionCellIdentifier), bundle: nil), forCellReuseIdentifier: Constants.kSectionCollectionCellIdentifier)
+        tableView.register(UINib.init(nibName: Helpers.typeName(for: Constants.kOperationCellIdentifier), bundle: nil), forCellReuseIdentifier: Helpers.typeName(for: Constants.kOperationCellIdentifier))
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        switch self.presenter!.typeFor(section: indexPath.section) {
+        switch presenter!.typeFor(section: indexPath.section) {
         case .CollectionView:
             let collectionViewcell = tableView.dequeueReusableCell(withIdentifier: Constants.kSectionCollectionCellIdentifier) as! SectionCollectionTableCell
             collectionViewcell.setCollectionViewDataSourceDelegate(self, forPath: indexPath)
-            self.presenter?.configure(cell: collectionViewcell, for: indexPath)
+            presenter?.configure(cell: collectionViewcell, for: indexPath)
             return collectionViewcell
         default:
             let operationCell = tableView.dequeueReusableCell(withIdentifier: Constants.kOperationCellIdentifier) as! OperationCell
-            self.presenter?.configure(cell: operationCell, for: indexPath)
+            presenter?.configure(cell: operationCell, for: indexPath)
             return operationCell
         }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return (self.presenter?.numberOfSections)!
+        guard let numberOfSections = presenter?.numberOfSections else {
+            return 0
+        }
+        return numberOfSections
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard let presenter = self.presenter else {
+        guard let numberOfRows = presenter?.numberOfRows(in: section) else {
             return 0
         }
-        return presenter.numberOfRows(in: section)
+        return numberOfRows
     }
     
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -59,21 +62,18 @@ extension FormViewController: UITableViewDataSource {
 extension FormViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        guard let operationsHeader = self.operationsHeader else {
-            return UIView()
-        }
-        return self.presenter?.typeFor(section: section) == .List ? operationsHeader : UIView()
+        return presenter?.typeFor(section: section) == .List ? operationsHeader : UIView()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        guard let presenter = self.presenter else {
+        guard let height = presenter?.rowHeight(for: indexPath.section) else {
             return 0
         }
-        return CGFloat(presenter.rowHeight(for: indexPath.section))
+        return CGFloat(height)
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return self.presenter?.typeFor(section: section) == .List ? Constants.kOperationHeaderHeight : 0
+        return presenter?.typeFor(section: section) == .List ? Constants.kOperationHeaderHeight : 0
     }
     
 }

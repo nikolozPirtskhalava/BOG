@@ -21,18 +21,18 @@ class FormViewController: UIViewController, FormView {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.configureTableOnLoad()
-        self.configurator.configure(for: self)
-        self.presenter?.viewDidLoad()
+        configureTableOnLoad()
+        configurator.configure(for: self)
+        presenter?.viewDidLoad()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.barStyle = .black
+        navigationController?.navigationBar.barStyle = .black
     }
 
     func resfreshTableView() {
-        self.tableView.reloadData()
+        tableView.reloadData()
     }
     
     func displayDataFetchError(_ error: Error) {

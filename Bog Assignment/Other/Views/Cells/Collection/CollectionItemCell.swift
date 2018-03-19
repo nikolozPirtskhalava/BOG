@@ -14,11 +14,11 @@ class CollectionItemCell: UICollectionViewCell, CollectionItemView {
     @IBOutlet weak var labelTitle: UILabel!
     
     func display(title: String) {
-        self.labelTitle.text = title
+        labelTitle.text = title
     }
     
     func display(icon: String) {
-        self.iconImageView.image = UIImage(named: icon)
+        iconImageView.image = UIImage(named: icon)
     }
 
 }

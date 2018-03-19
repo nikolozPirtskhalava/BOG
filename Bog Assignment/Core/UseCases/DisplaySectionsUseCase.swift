@@ -22,7 +22,7 @@ class DisplaySectionsUseCaseImplementation: DisplaySectionsUseCase {
     }
     
     func displaySections(completionHandler: (Result<[SectionViewModel]>) -> Void) {
-        self.collectionGateWay.fetchCollectionData { (result) in
+        collectionGateWay.fetchCollectionData { (result) in
             completionHandler(result)
         }
     }

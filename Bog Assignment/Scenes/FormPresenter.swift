@@ -70,15 +70,15 @@ class FormPresenterImplementation: FormPresenter {
     
     func handleFetchedItems(_ items: [SectionViewModel]) {
         self.items = items
-        self.view?.resfreshTableView()
+        view?.resfreshTableView()
     }
     
     func handleFetchError(_ error: Error) {
-        self.view?.displayDataFetchError(error)
+        view?.displayDataFetchError(error)
     }
     
     func configure(cell: OperationCell, for indexPath: IndexPath) {
-        let sectionListModelItem = self.items[indexPath.section] as! SectionListViewModel
+        let sectionListModelItem = items[indexPath.section] as! SectionListViewModel
         let operation = sectionListModelItem.items[indexPath.row]
         
         cell.display(id: operation.id)
@@ -89,7 +89,7 @@ class FormPresenterImplementation: FormPresenter {
     }
     
     func configure(cell: SectionCollectionTableCell, for indexPath: IndexPath) {
-        guard let collectionViewModel = self.items.item(at: indexPath.section) as? SectionCollectionViewModel,
+        guard let collectionViewModel = items.item(at: indexPath.section) as? SectionCollectionViewModel,
               let model = collectionViewModel.items.item(at: indexPath.row) else {
             return
         }
@@ -98,7 +98,7 @@ class FormPresenterImplementation: FormPresenter {
     }
     
     func configure(cell: CollectionItemCell, with tag: Int, for indexPath: IndexPath) {
-        guard let sectionCollectionViewModel = self.items.item(at: Helpers.sectionFromTag(tag: tag)) as? SectionCollectionViewModel,
+        guard let sectionCollectionViewModel = items.item(at: Helpers.sectionFromTag(tag: tag)) as? SectionCollectionViewModel,
             let model = sectionCollectionViewModel.items.item(at: Helpers.rowFromTag(tag: tag)),
             let item = model.items.item(at: indexPath.row) else {
                 return
@@ -109,7 +109,7 @@ class FormPresenterImplementation: FormPresenter {
     }
     
     func numnberOfcollectionItems(in section: Int, forRow row: Int) -> Int {
-        guard let sectionCollectionViewModel = self.items.item(at: section) as? SectionCollectionViewModel,
+        guard let sectionCollectionViewModel = items.item(at: section) as? SectionCollectionViewModel,
               let model = sectionCollectionViewModel.items.item(at: row) else {
                 return 0
         }
@@ -118,15 +118,15 @@ class FormPresenterImplementation: FormPresenter {
     }
     
     func numberOfRows(in section: Int) -> Int {
-        return self.items[section].rowCount
+        return items[section].rowCount
     }
     
     func typeFor(section: Int) -> SectionType {
-        return self.items[section].type
+        return items[section].type
     }
     
     func rowHeight(for section: Int) -> Float {
-        return self.items[section].rowHeight
+        return items[section].rowHeight
     }
     
 }

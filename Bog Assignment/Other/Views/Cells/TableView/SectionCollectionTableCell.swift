@@ -14,11 +14,11 @@ class SectionCollectionTableCell: UITableViewCell, SectionCollectionTableCellVie
     @IBOutlet weak var labelSectionTitle: UILabel!
     
     override func awakeFromNib() {
-        self.collectionView.register(UINib.init(nibName: Helpers.typeName(for: CollectionItemCell.self), bundle: nil), forCellWithReuseIdentifier: Helpers.typeName(for: CollectionItemCell.self))
+        collectionView.register(UINib.init(nibName: Helpers.typeName(for: CollectionItemCell.self), bundle: nil), forCellWithReuseIdentifier: Helpers.typeName(for: CollectionItemCell.self))
     }
     
     func display(title: String) {
-        self.labelSectionTitle.text = title
+        labelSectionTitle.text = title
     }
 }
 

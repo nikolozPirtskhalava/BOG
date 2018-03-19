@@ -21,18 +21,18 @@ class OperationCell: UITableViewCell, OperationCellView {
     }
     
     func display(icon: String) {
-        self.iconImageView.image = UIImage(named: icon)
+        iconImageView.image = UIImage(named: icon)
     }
     
     func display(title: String) {
-        self.labelTitle.text = title
+        labelTitle.text = title
     }
     
     func display(amount: String) {
-        self.labelAmount.text = amount
+        labelAmount.text = amount
     }
     
     func display(time: String) {
-        self.labelTime.text = time
+        labelTime.text = time
     }
 }
